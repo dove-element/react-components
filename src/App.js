@@ -6,11 +6,20 @@ import IconButton from './Components/Common/IconButton/IconButton';
 import PrimaryIconButton from './Components/Common/PrimaryIconButton/PrimaryIconButton';
 import Icon from './Components/Common/Icon/Icon';
 import { availableIcons } from './Components/Common/Icon/iconHelper';
+import Input from './Components/Common/Input/Input';
 
 function App() {
   return (
     <div className="App">
       <h1>Components</h1>
+      <section id="input">
+        <Input placeholder="Input..." />
+        <Input size="small" placeholder="small Input..." />
+        <Input size="large" placeholder="large Input..." />
+        <Input disabled />
+        <Input type="email" name="email" value="test@test.com" />
+        <Input type="password" name="password" value="aaaaaaaa" />
+      </section>
       <section className="icons">
         <h2>Icons</h2>
         {availableIcons.map(icon => {

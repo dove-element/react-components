@@ -30,6 +30,10 @@ function Icon({
   ...props
 }) {
   const SvgIcon = getIcon(icon);
+  if (!SvgIcon) {
+    console.warn(`Icon '${icon}' doesn't exist!`);
+    return null;
+  }
   return (
     <SvgIcon
       height={height}
