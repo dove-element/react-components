@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-components/static/css/main.004bbef1.chunk.css",
+    "main.js": "/react-components/static/js/main.ff9fdec8.chunk.js",
+    "main.js.map": "/react-components/static/js/main.ff9fdec8.chunk.js.map",
+    "runtime~main.js": "/react-components/static/js/runtime~main.19159b66.js",
+    "runtime~main.js.map": "/react-components/static/js/runtime~main.19159b66.js.map",
+    "static/js/2.fbb906a1.chunk.js": "/react-components/static/js/2.fbb906a1.chunk.js",
+    "static/js/2.fbb906a1.chunk.js.map": "/react-components/static/js/2.fbb906a1.chunk.js.map",
+    "index.html": "/react-components/index.html",
+    "precache-manifest.87ecee377362aef839c076170569d4b2.js": "/react-components/precache-manifest.87ecee377362aef839c076170569d4b2.js",
+    "service-worker.js": "/react-components/service-worker.js",
+    "static/css/main.004bbef1.chunk.css.map": "/react-components/static/css/main.004bbef1.chunk.css.map",
+    "static/media/compass.ded8f3ef.svg": "/react-components/static/media/compass.ded8f3ef.svg",
+    "static/media/plane.3a4dca50.svg": "/react-components/static/media/plane.3a4dca50.svg",
+    "static/media/search.65863b06.svg": "/react-components/static/media/search.65863b06.svg"
+  }
+}
