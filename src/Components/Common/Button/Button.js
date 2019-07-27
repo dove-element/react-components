@@ -8,7 +8,7 @@ const Button = ({ as: T, size, disabled, className, ...props }) => {
     <T
       className={classNames(styles.button, styles[size], className)}
       aria-disabled={disabled}
-      disabled
+      disabled={disabled}
       {...props}
     />
   );
