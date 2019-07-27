@@ -10,4 +10,8 @@ $background-color: #fd696c;
   &:hover {
     background-color: darken($background-color, 5);
   }
+
+  &[aria-disabled='true'] {
+    background-color: $background-color;
+  }
 }

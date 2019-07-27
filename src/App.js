@@ -39,6 +39,7 @@ function App() {
         <Button size={'large'}>large Button</Button>
         <Button className={'custom-class'}>custom class Button</Button>
         <Button style={{ color: 'red' }}>custom style Button</Button>
+        <Button disabled>custom style Button</Button>
       </section>
       <section>
         <h2 id="primaryButton">PrimaryButton</h2>
@@ -68,7 +69,12 @@ function App() {
         <PrimaryIconButton icon="plane" size="large">
           large PrimaryIconButton
         </PrimaryIconButton>
-        <PrimaryIconButton as="a" icon="compass" href="#primaryIconButton">
+        <PrimaryIconButton
+          disabled
+          as="a"
+          icon="compass"
+          href="#primaryIconButton"
+        >
           PrimaryIconButton as anchor
         </PrimaryIconButton>
       </section>
