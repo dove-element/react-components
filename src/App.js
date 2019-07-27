@@ -21,6 +21,10 @@ function App() {
             </div>
           );
         })}
+        <div>
+          <label>rotate</label>
+          <Icon icon="compass" style={{ animationDuration: '5s' }} rotate />
+        </div>
       </section>
       <h2>Button</h2>
       <section id="button">

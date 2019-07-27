@@ -9,19 +9,36 @@ Icon.propTypes = {
   width: PropTypes.number,
   icon: PropTypes.oneOf(availableIcons).isRequired,
   color: PropTypes.string,
+  rotate: PropTypes.bool,
 };
+
 Icon.defaultProps = {
   height: 30,
   width: 30,
   color: '406465',
+  rotate: false,
 };
-function Icon({ icon, height, width, style, className, color, ...props }) {
-  const Component = getIcon(icon);
+
+function Icon({
+  icon,
+  height,
+  width,
+  style,
+  className,
+  color,
+  rotate,
+  ...props
+}) {
+  const SvgIcon = getIcon(icon);
   return (
-    <Component
+    <SvgIcon
       height={height}
       width={width}
-      className={classNames(styles.icon, className)}
+      className={classNames(
+        styles.icon,
+        { [styles.rotate]: rotate },
+        className,
+      )}
       style={{ fill: color, ...style }}
       {...props}
     />
