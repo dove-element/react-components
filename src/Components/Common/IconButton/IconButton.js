@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Button from '../Button/Button';
@@ -38,4 +38,4 @@ function IconButton({ icon, iconColor, children, className, size, ...props }) {
   );
 }
 
-export default IconButton;
+export default memo(IconButton);

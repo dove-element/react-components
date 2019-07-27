@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import styles from './Button.module.scss';
 import classNames from 'classnames';
@@ -22,4 +22,4 @@ Button.defaultProps = {
   size: 'medium',
 };
 
-export default Button;
+export default memo(Button);
