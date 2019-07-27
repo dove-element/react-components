@@ -1,14 +1,14 @@
 .icon {
-  &.rotate {
-    animation: rotate infinite 1s linear;
-  }
+    &.rotate {
+        animation: rotate infinite 1s linear;
+    }
 }
 
 @keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
