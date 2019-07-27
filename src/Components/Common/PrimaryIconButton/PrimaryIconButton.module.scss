@@ -1,0 +1,13 @@
+$border-color: #fd696c;
+$text-color: #fff;
+$background-color: #fd696c;
+
+.primaryIconButton {
+  color: $text-color;
+  background-color: $background-color;
+  border: 1px solid $border-color;
+
+  &:hover {
+    background-color: darken($background-color, 5);
+  }
+}

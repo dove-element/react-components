@@ -1,0 +1,38 @@
+@import '../../../styles/variables.scss';
+$border-color: #406465;
+$text-color: #406465;
+$background-color: #fff;
+
+.button {
+  font-size: 16px;
+  padding: 0 20px;
+  background-color: $background-color;
+  color: $text-color;
+  border-radius: 3px;
+  height: 40px;
+  border: 1px solid $border-color;
+  cursor: pointer;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: normal;
+
+  &.small {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  &.large {
+    height: 60px;
+    font-size: 20px;
+  }
+
+  &:hover {
+    background-color: darken($background-color, 5);
+  }
+  &:focus {
+    outline: none;
+  }
+}
